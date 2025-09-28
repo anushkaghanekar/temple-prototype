@@ -156,10 +156,12 @@ app.get('/api/predict-history', async (req, res) => {
 
 // Absolute path to dist folder (Render builds in the same repo root)
 const clientPath = path.join(__dirname, 'client', 'dist'); 
+// Serve static frontend files
 app.use(express.static(clientPath));
 
-app.get('/*', (req, res) => {
-  res.sendFile(path.resolve(clientPath, 'index.html'));
+// Serve index.html for any unknown route that is NOT /api
+app.get(/^(?!\/api).*/, (req, res) => {
+  res.sendFile(path.join(clientPath, 'index.html'));
 });
 
 app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`));
