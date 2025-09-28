@@ -154,14 +154,12 @@ app.get('/api/predict-history', async (req, res) => {
   res.json(history);
 });
 
-// Serve frontend build
-const clientPath = path.join(__dirname, '../client/dist'); // Vite build folder
+// Absolute path to dist folder (Render builds in the same repo root)
+const clientPath = path.join(__dirname, 'client', 'dist'); 
 app.use(express.static(clientPath));
 
-// All other routes serve index.html
-app.get(/^\/(?!api).*/, (req, res) => {
-  res.sendFile(path.join(clientPath, 'index.html'));
+app.get('*', (req, res) => {
+  res.sendFile(path.resolve(clientPath, 'index.html'));
 });
-
 
 app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`));
