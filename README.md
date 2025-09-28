@@ -1,4 +1,4 @@
-# Temple Crowd & Booking Management System
+# Temple Crowd and Booking Management System
 This project is a **Smart India Hackathon prototype** for managing temple crowds, bookings,SOS alerts and improve everyone safety
 It integrates **AI, IoT, and real-time monitoring** to enhance safety and convenience for devotees.
 
