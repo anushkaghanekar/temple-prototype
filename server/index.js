@@ -155,7 +155,7 @@ app.get('/api/predict-history', async (req, res) => {
 });
 
 // Absolute path to dist folder (Render builds in the same repo root)
-const clientPath = path.join(__dirname, 'client', 'dist'); 
+const clientPath = path.join(__dirname, '..', 'client', 'dist'); 
 // Serve static frontend files
 app.use(express.static(clientPath));
 
