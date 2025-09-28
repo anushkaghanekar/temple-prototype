@@ -1,0 +1,135 @@
+{
+  "bookings": [
+    {
+      "id": "1d028fb0-c848-4791-b197-31621afd59f7",
+      "name": "Anushka",
+      "date": "2025-09-01",
+      "time": "10:00",
+      "temple": "Somnath",
+      "priority": true,
+      "slotNumber": 1,
+      "createdAt": "2025-09-27T15:11:40.087Z"
+    },
+    {
+      "id": "c04d6d3b-e458-4649-8c23-809be255e686",
+      "name": "Anushka Ghanekar",
+      "date": "2025-06-01",
+      "time": "11:00",
+      "temple": "Somnath",
+      "priority": false,
+      "slotNumber": 2,
+      "createdAt": "2025-09-27T15:22:11.925Z"
+    },
+    {
+      "id": "a401b6aa-1cde-4ac4-beae-cadc90c5ac89",
+      "name": "Anushka Ghanekar",
+      "date": "2025-06-01",
+      "time": "11:00",
+      "temple": "Siddhivinayak Temple",
+      "priority": false,
+      "slotNumber": 3,
+      "createdAt": "2025-09-27T15:29:25.660Z"
+    },
+    {
+      "id": "68eac1ce-eb28-40f1-8da4-a6f5e4fe9da5",
+      "name": "Anushka Ghanekar",
+      "date": "2025-06-01",
+      "time": "11:00",
+      "temple": "Siddhivinayak Temple",
+      "priority": false,
+      "slotNumber": 4,
+      "createdAt": "2025-09-27T15:37:47.202Z"
+    },
+    {
+      "id": "3e7c0d57-79fd-41d1-88c5-7e8c0ff3920b",
+      "name": "Anushka Ghanekar",
+      "date": "2025-06-01",
+      "time": "11:00",
+      "temple": "Siddhivinayak Temple",
+      "priority": false,
+      "slotNumber": 5,
+      "createdAt": "2025-09-27T15:56:08.752Z"
+    },
+    {
+      "id": "29d3c60f-e959-4231-aa1b-f6fad1221a17",
+      "name": "Anushka Ghanekar",
+      "date": "2025-06-01",
+      "time": "11:00",
+      "temple": "Siddhivinayak Temple",
+      "priority": false,
+      "slotNumber": 6,
+      "createdAt": "2025-09-27T16:30:59.638Z"
+    },
+    {
+      "id": "3ba94d08-6b2b-4ded-9165-0c134a6bc9e9",
+      "name": "Anushka Ghanekar",
+      "date": "2025-06-01",
+      "time": "11:00",
+      "temple": "Siddhivinayak Temple",
+      "priority": false,
+      "slotNumber": 7,
+      "createdAt": "2025-09-27T19:16:04.816Z"
+    },
+    {
+      "id": "88da70c8-6a40-4c97-a1f4-079607e32479",
+      "name": "Jessica Royy",
+      "date": "2025-06-01",
+      "time": "11:00",
+      "temple": "Siddhivinayak Temple",
+      "priority": false,
+      "slotNumber": 8,
+      "createdAt": "2025-09-28T11:23:39.645Z"
+    },
+    {
+      "id": "13e31d9a-a4b0-4c31-8af4-b27f2b7a35f2",
+      "name": "Jessica Royy",
+      "date": "2025-06-01",
+      "time": "11:00",
+      "temple": "Siddhivinayak Temple",
+      "priority": false,
+      "slotNumber": 9,
+      "createdAt": "2025-09-28T11:31:52.898Z"
+    }
+  ],
+  "alerts": [
+    {
+      "id": "c57abc03-297c-43ef-b447-1b0e501cfd4f",
+      "type": "warning",
+      "message": "Dont gather",
+      "date": "2025-09-27T15:12:38.879Z"
+    },
+    {
+      "id": "55d5b4f1-2ff2-4dcb-a19b-14de1f09682d",
+      "type": "warning",
+      "message": "Crowd surge detected near Gate 6. Please follow instructions",
+      "date": "2025-09-27T15:14:11.564Z"
+    },
+    {
+      "id": "542692ff-46ec-4095-869b-340a44b90646",
+      "type": "warning",
+      "message": "Crowd surge detected near entry gate",
+      "date": "2025-09-28T11:21:44.975Z"
+    },
+    {
+      "id": "fbaee792-b4f0-4e59-bb2f-29f0023c1da8",
+      "type": "warning",
+      "message": "Take care of your all belongings ",
+      "date": "2025-09-28T11:28:48.798Z"
+    },
+    {
+      "id": "5d5bc752-1340-4df1-a38c-07bfc57ea13f",
+      "type": "warning",
+      "message": "Crowd surge detected near gate no. 1",
+      "date": "2025-09-28T11:29:19.189Z"
+    },
+    {
+      "id": "c0a90427-a1da-4eff-a832-653627cdc7ad",
+      "type": "warning",
+      "message": "Crowd surge detected near first gate",
+      "date": "2025-09-28T11:30:51.680Z"
+    }
+  ],
+  "settings": {
+    "festivals": []
+  }
+}
