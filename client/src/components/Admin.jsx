@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
 export default function Admin() {
-  const API = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+  const API = import.meta.env.VITE_API_URL || 'https://temple-prototype.onrender.com';
   const [queue, setQueue] = useState([]);
   const [alerts, setAlerts] = useState([]);
   const [msg, setMsg] = useState('');

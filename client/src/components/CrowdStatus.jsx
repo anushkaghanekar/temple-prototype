@@ -16,7 +16,7 @@ export default function CrowdStatus() {
   const [status, setStatus] = useState(null);
   const [history, setHistory] = useState([]);
   const [temple, setTemple] = useState('Somnath');
-  const API = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+  const API = import.meta.env.VITE_API_URL || 'https://temple-prototype.onrender.com';
 
   const temples = [
     'Somnath',

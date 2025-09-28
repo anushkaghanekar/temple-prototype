@@ -14,7 +14,7 @@ export default function Booking() {
     temple: 'Somnath',
   });
   const [result, setResult] = useState(null);
-  const API = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+  const API = import.meta.env.VITE_API_URL || 'https://temple-prototype.onrender.com';
 
   const temples = [
     'Somnath',
